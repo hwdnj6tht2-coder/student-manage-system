@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生信息管理系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f0f5ff;
+            padding: 30px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c5c97;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .info-item {
+            margin: 15px 0;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+            color: #555;
+        }
+        input {
+            padding: 6px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 250px;
+        }
+        button {
+            background-color: #2c5c97;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #1d4370;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>学生信息管理系统</h1>
+        <div class="info-item">
+            <label>学号：</label>
+            <input type="text" placeholder="请输入学号">
+        </div>
+        <div class="info-item">
+            <label>姓名：</label>
+            <input type="text" placeholder="请输入姓名">
+        </div>
+        <div class="info-item">
+            <label>班级：</label>
+            <input type="text" placeholder="请输入班级">
+        </div>
+        <div class="info-item">
+            <label>专业：</label>
+            <input type="text" placeholder="请输入专业">
+        </div>
+        <button>提交信息</button>
+    </div>
+</body>
+</html>
